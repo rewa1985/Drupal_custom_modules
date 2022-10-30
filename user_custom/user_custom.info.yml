@@ -1,0 +1,9 @@
+name: User Custom Text Field Formatter
+description: Custom text field formatter of formatting for text field.
+package: Fields
+dependencies:
+ - text
+ - field
+ 
+type: module
+core: 8.x

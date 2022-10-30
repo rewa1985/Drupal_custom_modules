@@ -1,0 +1,3 @@
+services:
+  user_custom.slugifytext:
+    class: Drupal\user_custom\SlugifyText

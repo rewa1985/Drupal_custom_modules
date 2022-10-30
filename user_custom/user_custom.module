@@ -1,0 +1,17 @@
+<?php
+/**
+ * @file
+ * Text field formatter module integrating theme with formatter.
+ */
+
+
+/**
+ * Implements hook_theme().
+ */
+function user_custom_theme() {
+  return array(
+    'text_field_slugify_formatter' => array(
+      'variables' => array('text' => NULL, 'class' => 'text_field_slugify_formatter'),
+    ),
+  );
+}
